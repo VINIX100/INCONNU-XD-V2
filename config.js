@@ -8,10 +8,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'INCONNU~XD~HtwDESTC#-B4ViWfJ95xYLgGSzv4tQ-K5gqhmL5_S0s74g9FA2xw',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "INCONNU BOY",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " 554488138425",              
+    OWNER_NAME: process.env.OWNER_NAME || "JASON",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "237672658429",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'INCONNU-XD-V2',
